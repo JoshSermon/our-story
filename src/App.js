@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "./images/arrow-right.svg";
 import "./App.scss";
 
 function App() {
@@ -28,6 +29,14 @@ function App() {
                 against. However, what hasn't happened yet is the history our
                 current generation being told. This is our story.
               </p>
+              <div className="btn-row">
+                <button className="explore-button">
+                  explore
+                  <div className="arrow-icon">
+                    <img src={arrow} alt="arrow" />
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
           <div className="hero-images"></div>
